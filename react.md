@@ -10,12 +10,12 @@
 // 3. изменился props.b
 // 4. размонтирование
 const Comp = (props) => {
-	console.log(‘1’);
+	console.log('1');
 
 	useEffect(() => {
-		console.log(‘2’);
+		console.log('2');
 
-		return () => { console.log(‘3’); };
+		return () => { console.log('3'); };
 	}, [props.b]);
 
 	return null;

@@ -96,6 +96,6 @@ console.log("Message 6");
 
 - Типы данных
 - Дженерики, union-types
-- Utility types (особенно Record, ReturnType, Partial)
+- Utility types (особенно Record, ReturnType, Partial, Omit)
 - Как написать подобие Record при помощи interface
 - (Дополнительно) infer

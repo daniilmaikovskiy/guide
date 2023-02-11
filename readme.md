@@ -10,6 +10,7 @@
 
 Дополнительно
 
+- Что такое [API](https://superbwebsitebuilders.com/ru/chto-takoe-api-prostymi-slovami/). Привести [пример](https://ant.design/components/button/#API) API, для взаимодействия с которыми не нужно запрашивать данные с сервера
 - для чего нужен файл .env
 - Как ставить брейкпоинты в браузере и в ide
 - Что такое сниппеты и как их писать
@@ -20,6 +21,5 @@
 - Cookie
 - [Критические этапы рендеринга](https://developer.mozilla.org/ru/docs/Web/Performance/Critical_rendering_path)
 - [Основные термины Webpack](https://webpack.js.org/concepts/)
-- - Что такое [API](https://superbwebsitebuilders.com/ru/chto-takoe-api-prostymi-slovami/). Привести [пример](https://ant.design/components/button/#API) API, для взаимодействия с которыми не нужно запрашивать данные с сервера
 ###### For me only
 ###### This is the *[Markdown Guide](https://www.markdownguide.org)*.

@@ -1,21 +1,18 @@
-/*
-Дана строка S, найти подстроку максимальной длины
-Все символы в искомых подстроках идут подряд по строке и
-состоят из уникальных символов
+1. longestSubstring
+```
+// Дана строка S, найти подстроку максимальной длины
+// Все символы в искомых подстроках идут подряд по строке и
+// состоят из уникальных символов
 
+// Пример 1:
+// Input: s = "abcabcbb"
+// Output: "abc" or "bca" or "cab"
 
-Пример 1:
+// Пример 2:
+// Input: s = "bbbbb"
+// Output: "b"
 
-Input: s = "abcabcbb"
-Output: "abc" | “bca”
-
-Пример 2:
-
-Input: s = "bbbbb"
-Output: "b"
-
-Пример 3:
-
+// Пример 3:
 Input: s = "pwwkew"
 Output: "wke" or "kew"
 "pwke" - не верно
@@ -74,6 +71,7 @@ function longestSubstring(str = "") {
   const s = "hijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789hijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789hijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789hijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789hijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789hijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
   console.log("4", longestSubstring(s)?.length === 55);
 })();
+```
 
 ***
 

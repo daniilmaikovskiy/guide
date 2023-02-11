@@ -12,13 +12,13 @@
 const Comp = (props) => {
 	console.log(‘1’);
 
-useEffect(() => {
-	console.log(‘2’);
+	useEffect(() => {
+		console.log(‘2’);
 
-	return () => { console.log(‘3’); };
-}, [props.b]);
+		return () => { console.log(‘3’); };
+	}, [props.b]);
 
-return null;
+	return null;
 }
 
 ```

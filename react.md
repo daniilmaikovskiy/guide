@@ -27,7 +27,7 @@ const Comp = (props) => {
 
 ```
 - отличие componentDidMount, useEffect и useLayoutEffect
-- React.memo
+- React.memo, что делает второй аргумент у React.memo
 - Алгоритм [Reconciliation](https://ru.reactjs.org/docs/reconciliation.html)
 - Новые фичи React, начиная с React 16 по 18 ([React docs](https://reactjs.org)) (делаете особый акцент на auto-batching, [useTransition и useDeferredValue](https://youtu.be/QfIwLDy8j_U)), что [завезли](https://github.com/facebook/react/blob/main/CHANGELOG.md) в реакт начиная с 16 версии
 

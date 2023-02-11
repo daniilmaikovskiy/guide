@@ -13,44 +13,15 @@
 // Output: "b"
 
 // Пример 3:
-Input: s = "pwwkew"
-Output: "wke" or "kew"
-"pwke" - не верно
-
-*/
+// Input: s = "pwwkew"
+// Output: "wke" or "kew"
+// "pwke" - не верно
 
 function longestSubstring(str = "") {
-
+  // код писать здесь
 }
 
 /* testcases */
-
-(function () {
-  const s = "pwwkew";
-  const result = longestSubstring(s);
-  console.log("1", result === "wke" || result === "kew");
-})();
-
-(function () {
-  const s = "crdghcfrypne";
-  console.log("2", longestSubstring(s) === "dghcfrypne");
-})();
-
-(function () {
-  const s = "crdghfrgrgyanjclxgzuomlqxfgeqguuaxdjcuruapwpbzbyhau";
-  console.log("3", longestSubstring(s)?.length === 12);
-})();
-
-(function () {
-  const s = "hijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789hijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789hijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789hijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789hijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789hijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
-  console.log("4", longestSubstring(s)?.length === 55);
-})();
-function longestSubstring(str = "") {
-
-}
-
-/***** testcases *****/
-
 (function () {
   const s = "pwwkew";
   const result = longestSubstring(s);

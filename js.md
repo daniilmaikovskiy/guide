@@ -94,6 +94,33 @@ setTimeout(() => console.log("Message 5"));
 console.log("Message 6");
 ```
 
+- Как устроено наследование
+- Что выведет консоль
+```
+// 1.
+console.log(({}).prototype === ({}).__proto__);
+// 2. 
+function Func() {};
+console.log(Func.prototype === Func.__proto__);
+// 3-4.
+function Func1() {};
+function Func2() {};
+console.log(Func1.__proto__ === Func2.__proto__);
+console.log(Func1.prototype === Func2.prototype);
+// 5.
+let Component = (props) => {
+  return `<div>I don't know Prototype</div>`;
+};
+console.log(Component.prototype === Object.prototype);
+// 6-7.
+let age = 18;
+console.log(age.prototype === Number.prototype);
+console.log(age.__proto__ === Number.prototype);
+// 8.
+class Hacker {}
+console.log(Hacker.__proto__ === Function.prototype);
+```
+
 ### TypeScript (если хочется указать его в резюме)
 
 - Типы данных

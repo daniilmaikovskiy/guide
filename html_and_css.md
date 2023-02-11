@@ -5,3 +5,6 @@
 - flex
 - grid
 - Контекст наложения
+- overflow (+ баг когда задаем overflow-x: visible и overflow-y: auto)
+- форматы изображений png, jpeg, webp, svg
+- отличие svg от html ноды

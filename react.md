@@ -42,5 +42,8 @@ const Comp = (props) => {
 - Алгоритм [Reconciliation](https://ru.reactjs.org/docs/reconciliation.html)
 - Новые фичи React, начиная с React 16 по 18 ([React docs](https://reactjs.org)) (делаете особый акцент на auto-batching, [useTransition и useDeferredValue](https://youtu.be/QfIwLDy8j_U)), что [завезли](https://github.com/facebook/react/blob/main/CHANGELOG.md) в реакт начиная с 16 версии
 
+- что такое Redux? зачем нужен? отличие Redux от React.Context
+- что такое middleware
+
 - [Redux Toolkit](https://redux-toolkit.js.org/), Redux Toolkit Query (особенно метод [createApi](https://redux-toolkit.js.org/rtk-query/overview#apis))
 - (Дополнительно) Посмотреть [мою кастомную реализацию createApi со стабами](https://github.com/danimaik/black-wall-group/blob/master/src/components/service.js)

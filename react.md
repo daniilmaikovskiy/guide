@@ -1,5 +1,27 @@
 - что такое React и зачем нужен
 - React Fiber engine (по-моему уже не очень хорошо говорить что главная фича React это Virtual DOM, на мой взгляд это все-таки Fiber если речь про 16 версию и выше) [link](https://blog.logrocket.com/deep-dive-react-fiber/#what-react-fiber) - обычно не нужно глубоко понимать а достаточно знать что это такое
+- что такое Компонент, что такое Элемент
+- хуки useState, useEffect
+- что выведет консоль при заданных событиях
+```
+//  события
+// 1. монтирование
+// 2. изменился props.a
+// 3. изменился props.b
+// 4. размонтирование
+const Comp = (props) => {
+	console.log(‘1’);
+
+useEffect(() => {
+	console.log(‘2’);
+
+	return () => { console.log(‘3’); };
+}, [props.b]);
+
+return null;
+}
+
+```
 - отличие componentDidMount, useEffect и useLayoutEffect
 - React.memo
 - Алгоритм [Reconciliation](https://ru.reactjs.org/docs/reconciliation.html)

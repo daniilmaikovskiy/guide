@@ -19,6 +19,7 @@
 - Желательно вообще прочитать всю документацию по React и Redux (но можно и без этого, не делайте, если чувствуете что выгораете, практика всегда лучше)
 - react-query (чтоб получить оффер должно хватить Redux Toolkit Query, надо просто знать что это такое)
 - CORS, погуглить что такое preflight запрос
+- Cookie
 - [Критические этапы рендеринга](https://developer.mozilla.org/ru/docs/Web/Performance/Critical_rendering_path)
 - [Основные термины Webpack](https://webpack.js.org/concepts/)
 ###### For me only

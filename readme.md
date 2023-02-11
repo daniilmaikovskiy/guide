@@ -1,5 +1,4 @@
 # Вопросы по босс ревью
-##### Возможно я его буду дополнять
 
 - Что такое [API](https://superbwebsitebuilders.com/ru/chto-takoe-api-prostymi-slovami/). Привести [пример](https://ant.design/components/button/#API) API, для взаимодействия с которыми не нужно запрашивать данные с сервера
 
@@ -8,6 +7,8 @@
 ### JS, ([вопросы](https://github.com/daniilmaikovskiy/guide/blob/main/js.md))
 
 ### React, ([вопросы](https://github.com/daniilmaikovskiy/guide/blob/main/react.md))
+
+### [livecoding](https://github.com/daniilmaikovskiy/guide/blob/main/livecoding.md)
 
 Дополнительно
 

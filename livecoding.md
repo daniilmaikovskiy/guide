@@ -43,11 +43,9 @@ function longestSubstring(str = "") {
   console.log("4", longestSubstring(s)?.length === 55);
 })();
 ```
-
 ***
-
-areValidBrackets2
-  
+2. areValidBrackets
+```
 /* Функция принимает строку с комбинацией 
    скобок и возвращает валидна ли она */
 
@@ -67,36 +65,37 @@ function areValidBrackets2(str) {
     
 console.log("1", areValidBrackets2("[](){}")); // true
 console.log("2", areValidBrackets2("[{]}")); // false
-
+```
 ***
-
+3. unpack 
+```
+/* написать функцию, которая поднимает элементы в массиве, не использовать flat */
 function unpack(arr) {
 
 }
 console.log(unpack([1,2,[3,4]])); //[1,2,3,4]
 console.log(unpack([ 1,2,3,[ 4,5 ],6,[ 7,[ 8,[9] ] ] ])); //[1,2,3,4,5,6,7,8,9]
-
+```
 ***
-
+4. sortByFrequency
 // дан массив[1, 1, 1, 2, 2, 2, 2, 4, 4, 5, 0]
-
 // Оставить в массиве уникальные элементы
 // И отсортировать массив по частоте
 
 const input = [1, 1, 1, 2, 2, 2, 2, 4, 4, 5, 0];
 
 function sortByFrequency (arr = []) {
-// code here
+// Пишите код здесь
 }
 
-console.log(sortByFrequency(input));
-
-// response [2, 1, 4, 5, 0] или [2, 1, 4, 0, 5] 
-
+console.log(sortByFrequency(input)); // [2, 1, 4, 5, 0] или [2, 1, 4, 0, 5] 
+```
 ***
-
+5. memo
+```
+// Написать функцию, которая мемоизирует ответы другой функции
 function memo(fn) {
-
+  // Пишите код здесь
 }
 
 function plus(a, b) {
@@ -127,10 +126,11 @@ console.log(memoGetA(a1)); // getA call 1 \n 1
 console.log(memoGetA(a2)); // getA call 2 \n 2
 console.log(memoGetA(a1)); // 1
 console.log(memoGetA(a3)); // 1
-
+```
 ***
-
-/* FlatObject
+6. FlatObject
+```
+/*
 Напишите функцию, которая возвращает новый объект,
 в котором все примитивные элементы вложенных объектов были рекурсивно "подняты"(подняты = из вложенного объекта перемещены в текущий) до первого уровня.
 Пример:
@@ -156,9 +156,10 @@ const flatObject = (obj) => {
 };
 
 console.log(flatObject(obj)) // { c: 1, d: 2, e: 3, g: 4, h: 5, i: 6, j: 7 };
-
+```
 ***
-
+7. PromiseAll
+```
 /*
 PromiseAll
 Напишите асинхронную функцию, которая принимает массив промисов и
@@ -182,9 +183,10 @@ const promiseAll = (promisesArr) => {
 }
 
 promiseAll([firstPromise, secondPromise, thirdPromise]).then(console.log); // [300, 200, 100]
-
+```
 ***
-
+8. PromisesInSeries
+```
 /* PromisesInSeries
 Напишите функцию, которая принимает массив асинхронных функций и
 последовательно(следующая начинается, когда закончилась предыдущая) вызывает их, передавая в аргументы результат вызова предыдущей функции.
@@ -205,10 +207,11 @@ const promisesInSeries = (promises) => {
 
 promisesInSeries([firstPromise, secondPromise, thirdPromise]).then(console.log);
 // (300 + 200) ** 2 = 250 000
-
+```
 ***
-
-/* moveToStart
+9. moveToStart
+```
+/*
 Реализуйте функцию moveToStart, которая принимает массив и число n.
 Функция должна переставить n элементов массива из конца в начало.
 Если второй аргумент больше или равен
@@ -224,10 +227,11 @@ function moveToStart(arr, count) {
 console.log(moveToStart([1, 2, 3, 4, 5, 12, 8], 2)); // [12, 8, 1, 2, 3, 4, 5];
 
 console.log(moveToStart([1, 2, 3, 4, 5], 10)); // [1, 2, 3, 4, 5];
-
+```
 ***
-
-/*OptionalChaining
+10. OptionalChaining
+```
+/*
 Напишите функцию, которая принимает первым параметром объект,
 вторым - цепочку свойств, по которой нужно пройти, чтобы получить значение.
 Если какое-то из свойств не найдено - функция возвращает undefined.
@@ -242,18 +246,16 @@ const obj = {
     },
   },
 };
-
-  
   
 function optionalChaining(o, path) {
   // пиши код здесь
 };
 
-console.log(optionalChaining(obj, 'a.b.c')); // { d: 'Привет' }
-console.log(optionalChaining(obj, 'a.b.c.d')); // Привет
-console.log(optionalChaining(obj, 'a.b.c.d.e')); // undefined
-console.log(optionalChaining(obj, 'b.d.a')); // undefined
-console.log(optionalChaining(obj, '')) /* {
+console.log(optionalChaining(obj, 'a.b.c')); // Ответ = { d: 'Привет' }
+console.log(optionalChaining(obj, 'a.b.c.d')); // Ответ = Привет
+console.log(optionalChaining(obj, 'a.b.c.d.e')); // Ответ = undefined
+console.log(optionalChaining(obj, 'b.d.a')); // Ответ = undefined
+console.log(optionalChaining(obj, '')) /* Ответ = {
   a: {
     b: {
       c: {
@@ -262,9 +264,10 @@ console.log(optionalChaining(obj, '')) /* {
     },
   },
 } */
-
+```
 ***
-
+11. bind (не использовать apply и call)
+```
 const user = {
   name: "bob"
 };
@@ -276,9 +279,10 @@ function bind(context, fn) {
 bind(user, function () {
   console.log(this.name);
 })();
-
-useDirtyState
-
+```
+***
+12. useDirtyState
+```
 import "./styles.css";
 
 // задача: написать кастомный хук useDirtyState
@@ -301,40 +305,30 @@ export default function App() {
     </div>
   );
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+```
+13. useWillMount
+```
 import "./styles.css";
 
+// задача: написать кастомный хук useWillMount
+// работает как deprecated метод классового компонента componentWillMount
 
-const useWillMount = (callback) => {
- };
+const useWillMount = (callback = () => {}) => {
 
+};
 
 export default function App() {
- useWillMount(() => {
-   console.log("ok");
- });
+  useWillMount(() => {
+    console.log('componentWillMount');
+  });
+  
+  console.log("render");
 
-
- console.log("render");
-
-
- return <div className="App"></div>;
+  return (
+    <div className="App">
+    </div>
+  );
 }
+```
+14. кастомный чекбокс
+15. написать свой useState (особо тяжелая, никому не давать. Для намеренного заваливания студентов!)

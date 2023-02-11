@@ -33,6 +33,12 @@ const Comp = (props) => {
 - useCallback - что это, что делает useCallback с пустым массивом зависимостей
 - почему нельзя всегда использовать useCallback только с пустым массивом зависимостей, почему вообще нужен для него массив зависимостей
 - когда происходит размонтирование компонента React
+```
+1. когда пропадает сам элемент
+2. когда пропадает его родитель
+3. изменился key
+4. изменился type элемента (к примеру с div на button)
+```
 - Алгоритм [Reconciliation](https://ru.reactjs.org/docs/reconciliation.html)
 - Новые фичи React, начиная с React 16 по 18 ([React docs](https://reactjs.org)) (делаете особый акцент на auto-batching, [useTransition и useDeferredValue](https://youtu.be/QfIwLDy8j_U)), что [завезли](https://github.com/facebook/react/blob/main/CHANGELOG.md) в реакт начиная с 16 версии
 

@@ -1,7 +1,5 @@
 # Вопросы по босс ревью
 
-- Что такое [API](https://superbwebsitebuilders.com/ru/chto-takoe-api-prostymi-slovami/). Привести [пример](https://ant.design/components/button/#API) API, для взаимодействия с которыми не нужно запрашивать данные с сервера
-
 ### HTML & CSS, ([вопросы](https://github.com/daniilmaikovskiy/guide/blob/main/html_and_css.md))
 
 ### JS, ([вопросы](https://github.com/daniilmaikovskiy/guide/blob/main/js.md))
@@ -22,5 +20,6 @@
 - Cookie
 - [Критические этапы рендеринга](https://developer.mozilla.org/ru/docs/Web/Performance/Critical_rendering_path)
 - [Основные термины Webpack](https://webpack.js.org/concepts/)
+- - Что такое [API](https://superbwebsitebuilders.com/ru/chto-takoe-api-prostymi-slovami/). Привести [пример](https://ant.design/components/button/#API) API, для взаимодействия с которыми не нужно запрашивать данные с сервера
 ###### For me only
 ###### This is the *[Markdown Guide](https://www.markdownguide.org)*.

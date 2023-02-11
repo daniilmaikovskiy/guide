@@ -3,9 +3,9 @@
 
 - Что такое [API](https://superbwebsitebuilders.com/ru/chto-takoe-api-prostymi-slovami/). Привести [пример](https://ant.design/components/button/#API) API, для взаимодействия с которыми не нужно запрашивать данные с сервера
 
-### JS, ([вопросы](https://github.com/danimaik/guide/blob/main/js.md))
+### JS, ([вопросы](https://github.com/daniilmaikovskiy/guide/blob/main/js.md))
 
-### React, ([вопросы](https://github.com/danimaik/guide/blob/main/react.md))
+### React, ([вопросы](https://github.com/daniilmaikovskiy/guide/blob/main/react.md))
 
 Дополнительно
 
